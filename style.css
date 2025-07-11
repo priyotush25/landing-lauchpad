@@ -98,3 +98,39 @@ nav h1 {
 .action-img img {
   border-radius: 48px;
 }
+
+/* Productive Section */
+.productive-section {
+  width: 1140px;
+  height: 306px;
+  padding: 50px 80px;
+  margin: 137px auto;
+  border: 1px solid red;
+  border-radius: 24px;
+  text-align: center;
+  background: rgba(78, 71, 255, 0.1);
+  box-sizing: border-box;
+}
+.productive-section p {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+}
+.productive-items {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(78, 71, 255);
+  font-family: "Inter", sans-serif;
+}
+
+.item-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+}
