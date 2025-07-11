@@ -100,6 +100,7 @@ nav h1 {
 }
 
 /* Productive Section */
+
 .productive-section {
   width: 1140px;
   height: 306px;
@@ -133,4 +134,88 @@ nav h1 {
 .item-description {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Inter", sans-serif;
+}
+
+/* user-say section */
+
+/* Get Section  */
+.get-section {
+  width: 1140px;
+  height: 632px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.get-left {
+  width: 528px;
+  height: 232px;
+}
+.get-left h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.get-right {
+  width: 497px;
+  height: 490px;
+}
+.get-right input {
+  width: 497px;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 20px 32px 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.get-right textarea {
+  width: 497px;
+  height: 135px;
+  padding: 20px 32px 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+.get-right label {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.get-right input[placeholder] {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.get-right textarea[placeholder] {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.get-in-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  padding: 19px 101px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  background: rgb(78, 71, 255);
+  border: none;
+  margin-top: 20px;
+  width: 497px;
+  height: 62px;
 }
