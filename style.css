@@ -59,7 +59,9 @@ nav {
 }
 
 nav h1 {
+  font-family: "Inter", sans-serif;
   font-size: 34px;
+  font-weight: 900;
   color: rgb(78, 71, 255);
 }
 
@@ -73,7 +75,7 @@ nav h1 {
 
 .banner h2 {
   color: rgb(37, 36, 50);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 65px;
   font-weight: 700;
   margin-bottom: 37px;
