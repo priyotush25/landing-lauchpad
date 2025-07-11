@@ -17,8 +17,8 @@ body {
   margin: 0px;
   padding: 0px;
 }
-/* Share style */
 
+/* Shared style */
 .primary-btn {
   font-size: 16px;
   font-weight: 700;
@@ -38,7 +38,7 @@ body {
   transition: background-color 0.5s;
 }
 
-/* header section desing */
+/* Header Section Design */
 header {
   max-width: 100%;
   height: 698px;
@@ -63,7 +63,7 @@ nav h1 {
   color: rgb(78, 71, 255);
 }
 
-/* banner section design */
+/* Banner Section Design */
 .banner {
   text-align: center;
   width: 905px;
@@ -88,15 +88,18 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
 }
+
 .action-content {
   width: 517px;
 }
+
 .action-content h3 {
   font-family: "Raleway", sans-serif;
   font-size: 42px;
   font-weight: 700;
   color: rgb(37, 36, 50);
 }
+
 .action-content p {
   font-family: "Raleway", sans-serif;
   margin: 23px 0;
@@ -110,7 +113,6 @@ nav h1 {
 }
 
 /* Productive Section */
-
 .productive-section {
   width: 1140px;
   height: 306px;
@@ -121,12 +123,14 @@ nav h1 {
   background: rgba(78, 71, 255, 0.1);
   box-sizing: border-box;
 }
+
 .productive-section p {
   font-family: "Raleway", sans-serif;
   font-size: 38px;
   font-weight: 700;
   color: rgb(37, 36, 50);
 }
+
 .productive-items {
   margin-top: 40px;
   display: flex;
@@ -145,9 +149,114 @@ nav h1 {
   font-family: "Inter", sans-serif;
 }
 
-/* user-say section */
+/* User Say Section */
+.user-say-section {
+  width: 1140px;
+  margin: 150px auto;
+}
 
-/* Get Section  */
+.user-say-section h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  text-align: center;
+}
+
+.user-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-card {
+  width: 366.67px;
+  height: 243px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(30, 30, 30);
+}
+
+.card-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(30, 30, 30);
+  margin: 20px 0;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-user-img img {
+  border-radius: 50%;
+}
+
+.card-user-name {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+}
+
+.card-user-date {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(179, 179, 179);
+}
+
+.card-rating {
+  margin: 10px 0;
+}
+
+/* Focus Section */
+.focus-section {
+  width: 1140px;
+  height: 696.77px;
+  border-radius: 14px;
+  padding: 71px 150px;
+  background: rgb(255, 255, 255);
+  margin: 130px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.focus-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.focus-img img {
+  border-radius: 48px;
+}
+
+/* Get Section */
 .get-section {
   width: 1140px;
   height: 632px;
@@ -161,6 +270,7 @@ nav h1 {
   width: 528px;
   height: 232px;
 }
+
 .get-left h1 {
   font-family: "Raleway", sans-serif;
   font-size: 97px;
@@ -172,11 +282,12 @@ nav h1 {
   width: 497px;
   height: 490px;
 }
+
 .get-right input {
   width: 497px;
   height: 70px;
   margin-bottom: 20px;
-  padding: 20px 32px 20px 32px;
+  padding: 20px 32px;
   box-sizing: border-box;
   border: 1px solid rgb(214, 221, 237);
   border-radius: 10px;
@@ -186,12 +297,13 @@ nav h1 {
 .get-right textarea {
   width: 497px;
   height: 135px;
-  padding: 20px 32px 20px 32px;
+  padding: 20px 32px;
   box-sizing: border-box;
   border: 1px solid rgb(214, 221, 237);
   border-radius: 10px;
   background: rgb(255, 255, 255);
 }
+
 .get-right label {
   display: inline-block;
   font-size: 18px;
@@ -206,6 +318,7 @@ nav h1 {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
+
 .get-right textarea[placeholder] {
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -235,7 +348,7 @@ nav h1 {
   transition: background-color 0.5s;
 }
 
-/* Footer Section  */
+/* Footer Section */
 footer {
   width: 100%;
   height: 428px;
@@ -273,107 +386,3 @@ footer {
   margin-right: 30px;
   color: rgb(137, 135, 161);
 }
-
-/* user-say-section */
-
-.user-say-section {
-  width: 1140px;
-  margin: 150px auto;
-}
-
-.user-say-section h4 {
-  font-family: "Raleway", sans-serif;
-  font-size: 42px;
-  font-weight: 700;
-  color: rgb(37, 36, 50);
-  text-align: center;
-}
-.user-cards {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-}
-.user-card {
-  width: 366.67px;
-  height: 243px;
-  padding: 24px;
-  box-sizing: border-box;
-  border: 1px solid rgb(242, 237, 237);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.5);
-  margin-top: 20px;
-}
-
-.card-title {
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: rgb(30, 30, 30);
-}
-
-.card-description {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgb(30, 30, 30);
-  margin: 20px 0;
-}
-.card-user {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.card-user-img img {
-  border-radius: 50%;
-}
-
-.card-user-name {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(117, 117, 117);
-}
-.card-user-date {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgb(179, 179, 179);
-}
-.card-rating {
-  margin: 10px 0;
-}
-
-/* focus-section */
-.focus-section {
-  width: 1140px;
-  height: 696.77px;
-  border-radius: 14px;
-  padding: 71px 150px 71px 150px;
-  background: rgb(255, 255, 255);
-  margin: 130px auto;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.focus-title {
-  font-size: 50px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-}
-
-.focus-description {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-}
-
-.focus-img img {
-  border-radius: 48px;
-}
-/* End of design */
