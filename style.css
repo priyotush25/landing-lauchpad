@@ -92,11 +92,13 @@ nav h1 {
   width: 517px;
 }
 .action-content h3 {
+  font-family: "Raleway", sans-serif;
   font-size: 42px;
   font-weight: 700;
   color: rgb(37, 36, 50);
 }
 .action-content p {
+  font-family: "Raleway", sans-serif;
   margin: 23px 0;
   font-size: 24px;
   font-weight: 400;
@@ -343,3 +345,35 @@ footer {
 .card-rating {
   margin: 10px 0;
 }
+
+/* focus-section */
+.focus-section {
+  width: 1140px;
+  height: 696.77px;
+  border-radius: 14px;
+  padding: 71px 150px 71px 150px;
+  background: rgb(255, 255, 255);
+  margin: 130px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.focus-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.focus-img img {
+  border-radius: 48px;
+}
+/* End of design */
